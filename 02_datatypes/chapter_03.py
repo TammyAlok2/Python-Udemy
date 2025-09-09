@@ -35,3 +35,6 @@ scale_factor = 3
 powerful_flavor = base_flavor_strength ** scale_factor # gives exponential answer , power 
 
 print(f"powerful flavor factor {powerful_flavor}")
+
+tea_leaves =100000000000000000000000000
+print(tea_leaves)
