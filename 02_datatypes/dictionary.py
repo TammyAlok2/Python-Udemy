@@ -1,4 +1,4 @@
-#Dictionary is the datatype in python used to store the key and value pairs 
+#Dictionary is the datatype in python used to store the data in key-value form and it mutable 
 # Creating a dictionary
 person ={
     "name": "John",

@@ -1,4 +1,4 @@
-# You run an onle tea store.
+# You run an only tea store.
 # If the order amout is more than 300 , delivery is free ;
 # otherwise , it costs 30.
 
@@ -10,6 +10,6 @@ order_amount = int(input("Enter the order amount"))
 
 print(f"Order amount is :{order_amount} and type is {type(order_amount)}")
 
-deliver_fees = 0 if order_amount > 300 else 30
-
+deliver_fees = 0 if order_amount > 300 else 30 
+# deliver_fees = 0 if order_amount> 899 else 89
 print(f"Delivery fees is {deliver_fees}")
