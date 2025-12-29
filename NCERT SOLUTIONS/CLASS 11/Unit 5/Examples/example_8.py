@@ -1,0 +1,9 @@
+# Program to print even numbers in a given sequence using for loop
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+for num in numbers:
+    if num % 2 == 0:
+        print(num,'is even number')
+    else :
+        print(num,'is odd number ')     
