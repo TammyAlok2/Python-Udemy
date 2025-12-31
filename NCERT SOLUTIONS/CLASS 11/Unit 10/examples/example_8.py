@@ -1,0 +1,1 @@
+# Write  a function to convert a number entered by user into its correspoding number in words . for example, if the input is 877 then the output is 'Eight Seven Six' 

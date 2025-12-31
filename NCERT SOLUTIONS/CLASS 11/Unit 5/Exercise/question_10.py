@@ -1,24 +1,16 @@
-# 10.  Write a program to find the grade of a student when  
-#  grades are allocated as given in the table below. 
-# Percentage of Marks GRADE
-# Above 90%            A 
-# 80% to 90%           B
-# 70% to 80%           C
-# 60% to 70%           D
-# Below 60 %           E 
+# Write a Python program to convert temperature in 
+# degree Celsius to degree Fahrenheit. If water boils 
+# at 100 degree C and freezes as 0 degree C, use the 
+# program to find out what is the boiling point and 
+# freezing point of water on the Fahrenheit scale. 
+# (Hint: T(°F) = T(°C) × 9/5 + 32)
 
-# Percentage of the marks obtained by the student is input to the program.
+def farenheit_converter(temperature_in_celsius):
+    temperature = (temperature_in_celsius ) * 9 /5 + 32 
+    return temperature
 
-percentage = int (input("Enter your percentage"))
 
-if percentage > 90 :
-    print("Grade A ")
-elif percentage >= 80 & percentage <=90:
-    print("Grade B")    
-elif percentage >= 70 & percentage < 80:
-    print("Grade C")
-elif percentage >= 60 & percentage < 70:
-    print("Grade D") 
-else :
-    print("Grade E")       
-        
+result = farenheit_converter(37)
+print(f'Temperature in farenheit is {result}')
+
+

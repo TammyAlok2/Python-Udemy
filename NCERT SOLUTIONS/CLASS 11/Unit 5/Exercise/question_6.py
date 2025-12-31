@@ -1,20 +1,14 @@
-# 6. Write a program to find the sum of 1+ 1/8 + 1/27......1/n3, where n is the number input by the user
-
-n = int(input("Enter the value of n "))
-
-total_sum = 0.0
-for k in range(1, n + 1):
-    total_sum += 1 / (k ** 3)
-
-print(f"The sum is {abs(total_sum)}")
-
-
-
-
-
-
-
-
-
-
-
+# 6. Which data type will be used to represent the 
+# following data values and why?
+# a) Number of months in a year  = Tuple 
+# b) Resident of Delhi or not  = 
+# c)
+# Mobile number = integer (number)
+# d) Pocket money = 
+# e)
+# Volume of a sphere = float
+# f)
+# g)
+# Perimeter of a square = float
+# Name of the student = string
+# h) Address of the student = string

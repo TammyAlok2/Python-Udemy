@@ -1,25 +1,17 @@
-# Write a program that prints minimum and maximum 
-# of five numbers entered by the user.
+# 3. Write logical expressions corresponding to the 
+# following statements in Python and evaluate the 
+# expressions (assuming variables num1, num2, num3, 
+# first, middle, last are already having meaningful values): 
+# a) The sum of 20 and –10 is less than 12. 
+# b)  num3 is not more than 24.
+# c) 6.75 is between the values of integers num1 and 
+# num2.
+# d) The string ‘middle’ is larger than the string ‘first’ and 
+# smaller than the string  ‘last’. 
+# e) List Stationery is empty.
 
-numbers = [1,2,3,4,5]
+first = 20 
+middle = -10 
+last = 12 
 
-def find_maximum(numbers):
-    maximum = -1
-    for number in numbers:
-        if number > maximum :
-            maximum = number 
-    return maximum 
-
-def find_minimum (numbers):
-    minimum = numbers[0]
-    for number in numbers:
-        if number < minimum :
-            minimum = number         
-    return minimum        
-
-
-
-minimum_number = find_minimum(numbers)
-maximum_number = find_maximum(numbers)
-print(f"Maximum number is {maximum_number} and minimum number is {minimum_number}")
- 
+sum = first + middle 
